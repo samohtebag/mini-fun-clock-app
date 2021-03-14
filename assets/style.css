@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+}
+
+.heading {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.container {
+    border: 5px solid orange;
+    border-radius: 20px;
+}
+
+.container2 {
+    border: 5px solid orange;
+    width: 50%;
+    margin-left: 29em;
+    border-radius: 20px;
+}
+
+.topclock {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-text {
+    color: whitesmoke;
+}
+
+.form-label {
+    padding-left: 5px;
+    color: orange;
+}
+
+.form-control {
+    width: 50%;
+    margin-left: 250px;
+}
+
+.accordion {
+    margin-top: 40px;
+    width: 50%;
+    margin-left: 29.2em;
+}
+
+.accordion-item {
+    background-color: orange;
+}
+
+.hyperlinks {
+    display: flex;
+    color: orange;
+    margin-left: 36em;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 440px) {
+    .container{
+        margin-left: 0.5em;
+    }
+    .container2 {
+        width: 100%;
+        margin-left: 0.5em;
+    }
+    .form-control {
+        margin-left: 117px;
+    }
+    .accordion {
+        width: 100%;
+        margin-left: 0.3em;
+    }
+    .hyperlinks {
+        margin-left: 3em;
+    }
+}
+
