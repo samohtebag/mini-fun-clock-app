@@ -12,6 +12,7 @@ body {
 .container {
     border: 5px solid orange;
     border-radius: 20px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .container2 {
@@ -19,6 +20,7 @@ body {
     width: 50%;
     margin-left: 29em;
     border-radius: 20px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .topclock {
@@ -30,30 +32,37 @@ body {
 
 .form-container {
     text-align: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .form-text {
     color: whitesmoke;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .form-label {
     padding-left: 5px;
     color: orange;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .form-control {
     width: 50%;
     margin-left: 250px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .accordion {
     margin-top: 40px;
     width: 50%;
     margin-left: 29.2em;
+    border: 5px double slategray;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .accordion-item {
     background-color: orange;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .hyperlink1,
@@ -62,6 +71,7 @@ body {
     color: orange;
     margin-left: 36em;
     margin-top: 10px
+    font-family: 'Noto Sans', sans-serif;
 }
 
 @media only screen and (max-width: 440px) {
